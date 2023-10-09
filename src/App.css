@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.square-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.square-buttons {
+    font-size: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;   
+}
+
+.clear-board {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.clear-button {
+    font-size: 30px;
+    width: 300px;
+    height: 60px;
+}
