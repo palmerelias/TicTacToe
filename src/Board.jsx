@@ -63,7 +63,7 @@ export default function Board() {
         <div>
             <div className="game-info">
                 <h1>{turn ? "X" : "O"}'s Turn</h1>
-                <h1>Winner: {!winner ? "none" : winner}</h1>
+                <h1>Winner - {!winner ? "none" : winner}</h1>
             </div>
             <div className="square-container">
                     <Square value={squares[0].value} clicked={() => selectSquare(squares[0].id)}/> 
