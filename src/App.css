@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 50px;
-    background: white;
+    background: rgb(54,110,144);
+    background: linear-gradient(90deg, rgb(24, 52, 70) 0%, rgb(42, 87, 116) 100%);
     display: flex;
     justify-content: center;
 }
@@ -10,20 +11,23 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
+    color: white;
 
 }
 
 .square-container {
     display: grid;
+    gap: 2px;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
 }
 
 .square-buttons {
     font-size: 150px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 3px;   
+    color: white;
+    background-color: rgb(255, 255, 255, .2);
+    border: 1px solid white;
+    border-radius: 7px;   
 }
 
 .clear-board {
@@ -33,8 +37,9 @@ body {
 }
 
 .clear-button {
-    background-color: white;
-    border: 1px solid black;
+    background-color: rgb(255, 255, 255, .2);
+    border: 1px solid white;
+    color: white;
     border-radius: 3px;   
     font-size: 30px;
     width: 300px;
