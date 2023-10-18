@@ -8,6 +8,7 @@ body {
 }
 
 .game-info {
+    font-size: 8px;
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
@@ -16,14 +17,15 @@ body {
 }
 
 .square-container {
+    justify-content: center;
     display: grid;
     gap: 2px;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px;
 }
 
 .square-buttons {
-    font-size: 150px;
+    font-size: 57px;
     color: white;
     background-color: rgb(255, 255, 255, .2);
     border: 1px solid white;
@@ -41,8 +43,8 @@ body {
     border: 1px solid white;
     color: white;
     border-radius: 3px;   
-    font-size: 30px;
-    width: 300px;
-    height: 60px;
+    font-size: 10px;
+    width: 70px;
+    height: 25px;
     font-family: 'Roboto', sans-serif;
 }
