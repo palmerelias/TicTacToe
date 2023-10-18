@@ -30,6 +30,9 @@ h1 {
 }
 
 .square-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 85px;
     color: white;
     background-color: rgb(255, 255, 255, .2);
